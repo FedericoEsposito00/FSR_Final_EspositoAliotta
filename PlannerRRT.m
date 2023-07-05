@@ -4,9 +4,9 @@ close all
 clear all
 clc
 
-res = 0.25;
-meshres = 0.1;
-mapres = 5;
+res = 0.25; % Resolution in meters of discrete map
+meshres = 0.1; % Resolution in meters of meshes
+mapres = 4; % Resoultion in cells per meter of occupancy map
 x_size = 20/res;
 y_size = 20/res;
 z_size = 10/res;
